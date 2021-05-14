@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="d74a1233-ff2a-4682-afaf-6db8f9ab3e9e" data-root-id="50335"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="50613">
+          {"d5cca2db-6a0d-479d-850f-21bb8127bf38":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{"below":[{"id":"50343"}],"center":[{"id":"50345"},{"id":"50349"},{"id":"50381"}],"left":[{"id":"50346"}],"renderers":[{"id":"50368"},{"id":"50387"},{"id":"50405"}],"right":[{"id":"50381"}],"title":{"id":"50370"},"toolbar":{"id":"50357"},"width":900,"x_range":{"id":"50334"},"x_scale":{"id":"50339"},"y_range":{"id":"50337"},"y_scale":{"id":"50341"}},"id":"50335","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"50333"},"glyph":{"id":"50402"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"50404"},"nonselection_glyph":{"id":"50403"},"view":{"id":"50406"}},"id":"50405","type":"GlyphRenderer"},{"attributes":{},"id":"50339","type":"CategoricalScale"},{"attributes":{"label":{"value":"All accidents"},"renderers":[{"id":"50405"}]},"id":"50418","type":"LegendItem"},{"attributes":{},"id":"50350","type":"PanTool"},{"attributes":{},"id":"50355","type":"HelpTool"},{"attributes":{"fill_alpha":{"value":0.04},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.04},"line_color":{"value":"#ff7f0e"},"top":{"field":"Cyclist"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50386","type":"VBar"},{"attributes":{},"id":"50354","type":"ResetTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Pedestrian"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50366","type":"VBar"},{"attributes":{"data_source":{"id":"50333"},"glyph":{"id":"50384"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"50386"},"nonselection_glyph":{"id":"50385"},"view":{"id":"50388"}},"id":"50387","type":"GlyphRenderer"},{"attributes":{"overlay":{"id":"50356"}},"id":"50352","type":"BoxZoomTool"},{"attributes":{},"id":"50378","type":"UnionRenderers"},{"attributes":{},"id":"50337","type":"DataRange1d"},{"attributes":{},"id":"50341","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.04},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.04},"line_color":{"value":"#1f77b4"},"top":{"field":"Pedestrian"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50367","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.04},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.04},"line_color":{"value":"#2ca02c"},"top":{"field":"All accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50404","type":"VBar"},{"attributes":{},"id":"50344","type":"CategoricalTicker"},{"attributes":{},"id":"50347","type":"BasicTicker"},{"attributes":{},"id":"50374","type":"CategoricalTickFormatter"},{"attributes":{},"id":"50351","type":"WheelZoomTool"},{"attributes":{"data_source":{"id":"50333"},"glyph":{"id":"50365"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"50367"},"nonselection_glyph":{"id":"50366"},"view":{"id":"50369"}},"id":"50368","type":"GlyphRenderer"},{"attributes":{"source":{"id":"50333"}},"id":"50388","type":"CDSView"},{"attributes":{},"id":"50375","type":"AllLabels"},{"attributes":{"axis":{"id":"50346"},"dimension":1,"ticker":null},"id":"50349","type":"Grid"},{"attributes":{"fill_alpha":{"value":1.2},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":1.2},"line_color":{"value":"#1f77b4"},"top":{"field":"Pedestrian"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50365","type":"VBar"},{"attributes":{"label":{"value":"Pedestrian"},"renderers":[{"id":"50368"}]},"id":"50382","type":"LegendItem"},{"attributes":{"format":"0 %"},"id":"50420","type":"NumeralTickFormatter"},{"attributes":{"formatter":{"id":"50374"},"major_label_orientation":1.0471975511965976,"major_label_policy":{"id":"50372"},"ticker":{"id":"50344"}},"id":"50343","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":1.2},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":1.2},"line_color":{"value":"#ff7f0e"},"top":{"field":"Cyclist"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50384","type":"VBar"},{"attributes":{},"id":"50353","type":"SaveTool"},{"attributes":{"label":{"value":"Cyclist"},"renderers":[{"id":"50387"}]},"id":"50400","type":"LegendItem"},{"attributes":{"axis":{"id":"50343"},"ticker":null},"id":"50345","type":"Grid"},{"attributes":{"source":{"id":"50333"}},"id":"50369","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.1},"line_color":{"value":"#ff7f0e"},"top":{"field":"Cyclist"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50385","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.1},"line_color":{"value":"#2ca02c"},"top":{"field":"All accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50403","type":"VBar"},{"attributes":{"fill_alpha":{"value":1.2},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":1.2},"line_color":{"value":"#2ca02c"},"top":{"field":"All accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"50402","type":"VBar"},{"attributes":{"text":"Contributing factors frequency in data sets"},"id":"50370","type":"Title"},{"attributes":{"data":{"All accidents":{"__ndarray__":"gxR0iW4BZj8zB0FCJYV4PxeLICUzxpk/G81gsCnewD9wc8ifCGSDP3JuRzuHbKM/FCvz5Y0Jqj/w61u1W2FTP7pZclh6ppI/nw0GYNgSYD+0WorghfyWPyW6115SIJk/d0zrX9xndT/B6/QQN95uPza+VY0ciII/SUcQaIOYhD9YCt0imaCMP5Rl3UUOf5M/YkQRZukJhD8uvb+vE+NyPw==","dtype":"float64","order":"little","shape":[20]},"Cyclist":{"__ndarray__":"SoTtiZ0DaD+lgIygTW11P8WMYFm7DXA/2Ud/JWzcxD9p60UgGFWEP3RdNMreabE/fGBpOPoRkD/yZTRCoHNQP0k69kS3ZYs/zrRXvpuEgD8mLpXjpcWJP9wSK1sL3Z4/06NXzhhxYj9JTp76sSGxPwVsK8d6w3Q/yDs9f086oD9V9tszZBiFP2F55B71P34/T73k3gCOhj+Yeq9suhx/Pw==","dtype":"float64","order":"little","shape":[20]},"Pedestrian":{"__ndarray__":"EOiZPugthT+aJfIikHt2P/pcfiQArKg/akkEolO/zD+1zNBkcnF/P5A6c4XUE8s/FcZPIZOXfD9cozs6dl6CPxjc5l3cxH8/XuAOQjMEZT8XKl/0w7V+P6/uGoLHB3g/rdiDRX7adD/H7bDAeI6wP8NTNA7OdWc/+/c0FD0phD9lcEyO9nx9P/00CBz6zlY/hg5RLXH+hT9ReYE7CM2QPw==","dtype":"float64","order":"little","shape":[20]},"Time":["Aggressive Driving/Road Rage","Alcohol Involvement","Backing Unsafely","Driver Inattention/Distraction","Driver Inexperience","Failure to Yield Right-of-Way","Following Too Closely","Glare","Other Vehicular","Passenger Distraction","Passing Too Closely","Passing or Lane Usage Improper","Pavement Slippery","Pedestrian/Bicyclist/Other Pedestrian Error/Confusion","Reaction to Uninvolved Vehicle","Traffic Control Disregarded","Turning Improperly","Unsafe Lane Changing","Unsafe Speed","View Obstructed/Limited"]},"selected":{"id":"50379"},"selection_policy":{"id":"50378"}},"id":"50333","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"50356","type":"BoxAnnotation"},{"attributes":{"factors":["Aggressive Driving/Road Rage","Alcohol Involvement","Backing Unsafely","Driver Inattention/Distraction","Driver Inexperience","Failure to Yield Right-of-Way","Following Too Closely","Glare","Other Vehicular","Passenger Distraction","Passing Too Closely","Passing or Lane Usage Improper","Pavement Slippery","Pedestrian/Bicyclist Error/Confusion","Reaction to Uninvolved Vehicle","Traffic Control Disregarded","Turning Improperly","Unsafe Lane Changing","Unsafe Speed","View Obstructed/Limited"]},"id":"50334","type":"FactorRange"},{"attributes":{"active_multi":null,"tools":[{"id":"50350"},{"id":"50351"},{"id":"50352"},{"id":"50353"},{"id":"50354"},{"id":"50355"}]},"id":"50357","type":"Toolbar"},{"attributes":{"source":{"id":"50333"}},"id":"50406","type":"CDSView"},{"attributes":{},"id":"50372","type":"AllLabels"},{"attributes":{"click_policy":"mute","items":[{"id":"50382"},{"id":"50400"},{"id":"50418"}],"label_text_font_size":"10px"},"id":"50381","type":"Legend"},{"attributes":{"axis_label":"Frequency of contributing factors for data sets","formatter":{"id":"50420"},"major_label_policy":{"id":"50375"},"ticker":{"id":"50347"}},"id":"50346","type":"LinearAxis"},{"attributes":{},"id":"50379","type":"Selection"}],"root_ids":["50335"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('50613').textContent;
+                  var render_items = [{"docid":"d5cca2db-6a0d-479d-850f-21bb8127bf38","root_ids":["50335"],"roots":{"50335":"d74a1233-ff2a-4682-afaf-6db8f9ab3e9e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

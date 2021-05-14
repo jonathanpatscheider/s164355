@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="bb2ef93d-5977-41f6-b514-8dfc684f3745" data-root-id="42699"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="42901">
+          {"0bbebbb2-caac-40a7-9aeb-fee8e0ba65dd":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{"fields":["No injuries","With injuries"]},"id":"42722","type":"Stack"},{"attributes":{"source":{"id":"42741"}},"id":"42746","type":"CDSView"},{"attributes":{},"id":"42733","type":"CategoricalTickFormatter"},{"attributes":{},"id":"42757","type":"Selection"},{"attributes":{"text":"Vehicle types and distributions of severity for accidents involving cyclists"},"id":"42700","type":"Title"},{"attributes":{"label":{"value":"With injuries"},"renderers":[{"id":"42745"}]},"id":"42758","type":"LegendItem"},{"attributes":{"data_source":{"id":"42724"},"glyph":{"id":"42726"},"hover_glyph":null,"muted_glyph":null,"name":"No injuries","nonselection_glyph":{"id":"42727"},"view":{"id":"42729"}},"id":"42728","type":"GlyphRenderer"},{"attributes":{"formatter":{"id":"42779"},"major_label_policy":{"id":"42734"},"minor_tick_line_color":null,"ticker":{"id":"42714"}},"id":"42713","type":"LinearAxis"},{"attributes":{"fields":["No injuries","With injuries","Fatal"]},"id":"42723","type":"Stack"},{"attributes":{"source":{"id":"42759"}},"id":"42764","type":"CDSView"},{"attributes":{"data":{"Causes":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pedicab","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"Fatal":[0.01818181818181818,0.005390835579514825,0.040625,0.026525198938992044,0.01282051282051282,0.05660377358490566,0.0041928721174004195,0.0,0.007518796992481203,0.0072992700729927005,0.0,0.0,0.009107468123861567,0.00625,0.001861882193635748,0.003299276287782035,0.002825999192571659,0.17391304347826086,0.009174311926605505],"No injuries":[0.2545454545454545,0.24707996406109614,0.209375,0.22281167108753316,0.1282051282051282,0.24528301886792453,0.006289308176100629,0.4090909090909091,0.2781954887218045,0.28102189781021897,0.1896551724137931,0.025,0.18397085610200364,0.2375,0.2153859174001354,0.18997445721583653,0.2466693580944691,0.32608695652173914,0.24311926605504589],"With injuries":[0.7272727272727273,0.7475292003593891,0.75,0.7506631299734748,0.8589743589743589,0.6981132075471698,0.989517819706499,0.5909090909090909,0.7142857142857143,0.7116788321167883,0.8103448275862069,0.975,0.8069216757741348,0.75625,0.7827522004062288,0.8067262664963815,0.7505046427129592,0.5,0.7477064220183486]},"selected":{"id":"42757"},"selection_policy":{"id":"42756"}},"id":"42741","type":"ColumnDataSource"},{"attributes":{},"id":"42708","type":"LinearScale"},{"attributes":{"data":{"Causes":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pedicab","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"Fatal":[0.01818181818181818,0.005390835579514825,0.040625,0.026525198938992044,0.01282051282051282,0.05660377358490566,0.0041928721174004195,0.0,0.007518796992481203,0.0072992700729927005,0.0,0.0,0.009107468123861567,0.00625,0.001861882193635748,0.003299276287782035,0.002825999192571659,0.17391304347826086,0.009174311926605505],"No injuries":[0.2545454545454545,0.24707996406109614,0.209375,0.22281167108753316,0.1282051282051282,0.24528301886792453,0.006289308176100629,0.4090909090909091,0.2781954887218045,0.28102189781021897,0.1896551724137931,0.025,0.18397085610200364,0.2375,0.2153859174001354,0.18997445721583653,0.2466693580944691,0.32608695652173914,0.24311926605504589],"With injuries":[0.7272727272727273,0.7475292003593891,0.75,0.7506631299734748,0.8589743589743589,0.6981132075471698,0.989517819706499,0.5909090909090909,0.7142857142857143,0.7116788321167883,0.8103448275862069,0.975,0.8069216757741348,0.75625,0.7827522004062288,0.8067262664963815,0.7505046427129592,0.5,0.7477064220183486]},"selected":{"id":"42777"},"selection_policy":{"id":"42776"}},"id":"42759","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"42710"}],"center":[{"id":"42712"},{"id":"42716"},{"id":"42739"}],"height":1000,"left":[{"id":"42713"}],"outline_line_color":null,"renderers":[{"id":"42728"},{"id":"42745"},{"id":"42763"}],"title":{"id":"42700"},"toolbar":{"id":"42717"},"toolbar_location":null,"width":1200,"x_range":{"id":"42702"},"x_scale":{"id":"42706"},"y_range":{"id":"42704"},"y_scale":{"id":"42708"}},"id":"42699","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"42710"},"grid_line_color":null,"ticker":null},"id":"42712","type":"Grid"},{"attributes":{"format":"0 %"},"id":"42779","type":"NumeralTickFormatter"},{"attributes":{"bottom":{"expr":{"id":"42718"}},"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"42719"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"42726","type":"VBar"},{"attributes":{"start":0},"id":"42704","type":"DataRange1d"},{"attributes":{"factors":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pedicab","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"range_padding":0.1},"id":"42702","type":"FactorRange"},{"attributes":{"formatter":{"id":"42733"},"major_label_orientation":"vertical","major_label_policy":{"id":"42731"},"minor_tick_line_color":null,"ticker":{"id":"42711"}},"id":"42710","type":"CategoricalAxis"},{"attributes":{"bottom":{"expr":{"id":"42718"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"42719"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"42727","type":"VBar"},{"attributes":{"fields":["No injuries"]},"id":"42720","type":"Stack"},{"attributes":{},"id":"42731","type":"AllLabels"},{"attributes":{"items":[{"id":"42740"},{"id":"42758"},{"id":"42778"}],"label_text_font_size":"10px","location":"center_left"},"id":"42739","type":"Legend"},{"attributes":{"source":{"id":"42724"}},"id":"42729","type":"CDSView"},{"attributes":{"data":{"Causes":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pedicab","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"Fatal":[0.01818181818181818,0.005390835579514825,0.040625,0.026525198938992044,0.01282051282051282,0.05660377358490566,0.0041928721174004195,0.0,0.007518796992481203,0.0072992700729927005,0.0,0.0,0.009107468123861567,0.00625,0.001861882193635748,0.003299276287782035,0.002825999192571659,0.17391304347826086,0.009174311926605505],"No injuries":[0.2545454545454545,0.24707996406109614,0.209375,0.22281167108753316,0.1282051282051282,0.24528301886792453,0.006289308176100629,0.4090909090909091,0.2781954887218045,0.28102189781021897,0.1896551724137931,0.025,0.18397085610200364,0.2375,0.2153859174001354,0.18997445721583653,0.2466693580944691,0.32608695652173914,0.24311926605504589],"With injuries":[0.7272727272727273,0.7475292003593891,0.75,0.7506631299734748,0.8589743589743589,0.6981132075471698,0.989517819706499,0.5909090909090909,0.7142857142857143,0.7116788321167883,0.8103448275862069,0.975,0.8069216757741348,0.75625,0.7827522004062288,0.8067262664963815,0.7505046427129592,0.5,0.7477064220183486]},"selected":{"id":"42738"},"selection_policy":{"id":"42737"}},"id":"42724","type":"ColumnDataSource"},{"attributes":{},"id":"42776","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"42759"},"glyph":{"id":"42761"},"hover_glyph":null,"muted_glyph":null,"name":"Fatal","nonselection_glyph":{"id":"42762"},"view":{"id":"42764"}},"id":"42763","type":"GlyphRenderer"},{"attributes":{"label":{"value":"No injuries"},"renderers":[{"id":"42728"}]},"id":"42740","type":"LegendItem"},{"attributes":{"fields":["No injuries","With injuries"]},"id":"42721","type":"Stack"},{"attributes":{},"id":"42756","type":"UnionRenderers"},{"attributes":{"axis":{"id":"42713"},"dimension":1,"ticker":null},"id":"42716","type":"Grid"},{"attributes":{"bottom":{"expr":{"id":"42722"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.1},"line_color":{"value":"#ff7f0e"},"top":{"expr":{"id":"42723"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"42762","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"42720"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#aec7e8"},"line_alpha":{"value":0.1},"line_color":{"value":"#aec7e8"},"top":{"expr":{"id":"42721"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"42744","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"42722"}},"fill_color":{"value":"#ff7f0e"},"line_color":{"value":"#ff7f0e"},"top":{"expr":{"id":"42723"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"42761","type":"VBar"},{"attributes":{},"id":"42734","type":"AllLabels"},{"attributes":{},"id":"42737","type":"UnionRenderers"},{"attributes":{},"id":"42738","type":"Selection"},{"attributes":{"fields":[]},"id":"42718","type":"Stack"},{"attributes":{"data_source":{"id":"42741"},"glyph":{"id":"42743"},"hover_glyph":null,"muted_glyph":null,"name":"With injuries","nonselection_glyph":{"id":"42744"},"view":{"id":"42746"}},"id":"42745","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Fatal"},"renderers":[{"id":"42763"}]},"id":"42778","type":"LegendItem"},{"attributes":{"fields":["No injuries"]},"id":"42719","type":"Stack"},{"attributes":{"active_multi":null},"id":"42717","type":"Toolbar"},{"attributes":{},"id":"42714","type":"BasicTicker"},{"attributes":{},"id":"42777","type":"Selection"},{"attributes":{},"id":"42706","type":"CategoricalScale"},{"attributes":{"bottom":{"expr":{"id":"42720"}},"fill_color":{"value":"#aec7e8"},"line_color":{"value":"#aec7e8"},"top":{"expr":{"id":"42721"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"42743","type":"VBar"},{"attributes":{},"id":"42711","type":"CategoricalTicker"}],"root_ids":["42699"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('42901').textContent;
+                  var render_items = [{"docid":"0bbebbb2-caac-40a7-9aeb-fee8e0ba65dd","root_ids":["42699"],"roots":{"42699":"bb2ef93d-5977-41f6-b514-8dfc684f3745"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
